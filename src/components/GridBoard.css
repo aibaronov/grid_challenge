@@ -1,0 +1,14 @@
+
+.grid-board{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(100, 7px);
+    grid-template-rows: repeat(100, 7px);
+    grid-gap: 0;
+    align-self: flex-start;
+    justify-items: end;
+    align-items: end;
+    width: 700px;
+    height: 700px;
+    margin:auto;
+}

@@ -1,0 +1,26 @@
+:root {
+    --color-1:  #facf5a; 
+    --color-2: #085f63; 
+
+    --tile-size: 7px;
+    --border-width: 0.5px;
+  }
+
+.color-1 {
+    background-color: var(--color-1);
+  }
+  
+  .color-2 {
+    background-color: var(--color-2);
+  }
+
+  .player {
+    background-color: black;
+  }
+
+.grid-square {
+    border-style: solid;
+    width: var(--tile-size);
+    height: var(--tile-size);
+    
+  }
